@@ -1,0 +1,128 @@
+{
+  "issues": [
+    {
+      "type": "numeric",
+      "severity": "medium",
+      "slides": [
+        1,
+        2
+      ],
+      "message": "Conflicting 'minutes saved per slide' values found: [15.0, 20.0].",
+      "origin": "rules"
+    },
+    {
+      "type": "numeric",
+      "severity": "high",
+      "slides": [
+        1,
+        2
+      ],
+      "message": "Slide 1 reports '$2M' impact, while Slide 2 states '$3M saved in lost productivity hours annually'.",
+      "origin": "llm"
+    },
+    {
+      "type": "numeric",
+      "severity": "high",
+      "slides": [
+        3
+      ],
+      "message": "Headline claims 50.0 hours, but components sum to 40 hours.",
+      "origin": "rules"
+    },
+    {
+      "type": "text",
+      "severity": "low",
+      "slides": [
+        4
+      ],
+      "message": "On this slide, Copilot hours (~2) exceed Gamma (~1); verify claim of Gamma being 'superior'.",
+      "origin": "rules"
+    },
+    {
+      "type": "text",
+      "severity": "medium",
+      "slides": [
+        1,
+        2
+      ],
+      "message": "Conflicting acceleration claims: slide 1: 2x faster, slide 2: 3x faster",
+      "origin": "rules"
+    },
+    {
+      "type": "numeric",
+      "severity": "high",
+      "slides": [
+        1,
+        2
+      ],
+      "message": "Slide 1 states '2x faster' deck creation, while Slide 2 claims '3x faster deck creation speed'.",
+      "origin": "llm"
+    },
+    {
+      "type": "numeric",
+      "severity": "high",
+      "slides": [
+        1,
+        2
+      ],
+      "message": "Slide 1 claims '15 mins saved per slide created', but Slide 2 states '20 mins saved per slide created'.",
+      "origin": "llm"
+    },
+    {
+      "type": "numeric",
+      "severity": "high",
+      "slides": [
+        3
+      ],
+      "message": "Slide 3 states 'Noogat: 50 Hours Saved Per Consultant Monthly', but the sum of the individual time-saving areas listed (10 + 12 + 8 + 6 + 4) totals 40 hours, creating a 10-hour discrepancy.",
+      "origin": "llm"
+    },
+    {
+      "type": "text",
+      "severity": "high",
+      "slides": [
+        4,
+        6
+      ],
+      "message": "Slide 4's numerical data shows Copilot saving more hours (totaling 6 hours from 2+3+1) than Gamma (totaling 3.5 hours from 1+2+0.5) in comparable categories. However, Slide 6 is titled 'Key Limitations of Copilot Compared to Gamma's Superior Slide Capabilities' and its content consistently portrays Gamma as superior to Copilot in slide creation abilities, which contradicts the time-saving data provided.",
+      "origin": "llm"
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "text_len": 581,
+      "images": 0
+    },
+    {
+      "slide": 2,
+      "text_len": 914,
+      "images": 0
+    },
+    {
+      "slide": 3,
+      "text_len": 1180,
+      "images": 0
+    },
+    {
+      "slide": 4,
+      "text_len": 662,
+      "images": 0
+    },
+    {
+      "slide": 5,
+      "text_len": 434,
+      "images": 0
+    },
+    {
+      "slide": 6,
+      "text_len": 865,
+      "images": 0
+    },
+    {
+      "slide": 7,
+      "text_len": 141,
+      "images": 0
+    }
+  ]
+}

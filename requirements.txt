@@ -1,0 +1,10 @@
+google-generativeai
+python-dotenv
+docling
+python-pptx
+Pillow
+numpy
+pandas
+python-dateutil
+rapidfuzz
+tqdm
